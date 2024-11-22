@@ -1,5 +1,5 @@
 # zsyelement
-- 官网地址：[zsyelement](https://api.aizs.ink/dev/portal/zsyelement/)
+- 官网地址：[zsyelement]<a href="https://api.aizs.ink/dev/portal/zsyelement" target="_blank">zsyelement</a>
 
 ![图标](https://github.com/cxy-js/zsyelement/blob/master/public/imgs/zsyelement-bg.png)
 ## 安装
