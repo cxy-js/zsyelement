@@ -1,6 +1,6 @@
 {
   "name": "zsyelement",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "type": "module",
   "author": "cxy",
   "main": "./dist/zsyelement.umd.cjs",
@@ -23,6 +23,10 @@
     "dist",
     "src/packages/index.ts"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@https://github.com/cxy-js/zsyelement"
+  },
   "exports": {
     "./dist/style.css": "./dist/style.css",
     ".": {

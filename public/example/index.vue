@@ -22,6 +22,8 @@
             <img src="./logo_zsy.png" alt="" width="16px" height="16px">
         </template>
     </zsy-input>
+
+    <zsy-radio v-model="radioValue" v-model:list="radioList" :size="18" @change="changeRadio"></zsy-radio>
 </template>
 <script lang='ts' setup>
 import {ref} from "vue"
@@ -40,4 +42,26 @@ const list = ref([
         value:1
     },
 ])
+const radioValue = ref(0)
+const radioList = ref([
+    {
+        label:"label0",
+        value:0
+    },
+    {
+        label:"label1",
+        value:1
+    },
+    {
+        label:"label2",
+        value:2
+    },
+    {
+        label:"label3",
+        value:3
+    },
+])
+function changeRadio(e){
+    console.log(e)
+}
 </script>

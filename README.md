@@ -1,4 +1,5 @@
 # zsyelement
+- 基于vue3.4+
 - 官网地址：[zsyelement](https://api.aizs.ink/dev/portal/zsyelement/)
 
 ![图标](https://github.com/cxy-js/zsyelement/blob/master/public/imgs/zsyelement-bg.png)
@@ -18,11 +19,7 @@ app.use(zsyelement)
 ```
 ### 按需导入
 ```bash
-import { zsyTabs } from "zsyelement"
+import { zsyButton } from "zsyelement"
 import "zsyelement/dist/style.css"
 ```
-#### 已有组件
-+ zsyTabs
-+ zsyButton
-+ zsyInput
 

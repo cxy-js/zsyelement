@@ -24,7 +24,7 @@ import { computed } from 'vue';
 
 const emit = defineEmits(['change','input','focus','blur'])
 const modelValue = defineModel("modelValue")
-const maxlength = defineModel<string | number>("maxlength",{type:String || Number})
+const maxlength = defineModel<string | number>("maxlength")
 const showLimit = defineModel("showLimit",{type:Boolean,default:false})
 const showClear = defineModel("showClear",{required:false,default:true,type:Boolean})
 const len = computed(()=>String(modelValue.value).length)
