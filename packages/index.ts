@@ -24,7 +24,8 @@ const install = function (app: App) {
 export {
   zsyTabs,
   zsyButton,
-  zsyInput
+  zsyInput,
+  zsyRadio
 };
 const zsyelement = {
   install

@@ -19,7 +19,7 @@
         <span v-if="showClear&&modelValue" class="zsy-clear" @click="clearModel">×</span>  
     </div>
 </template>
-<script lang='ts' setup>
+<script lang='ts' setup name="zsyInput">
 import { computed } from 'vue';
 
 const emit = defineEmits(['change','input','focus','blur'])
